@@ -29,7 +29,7 @@ function* contactRequest({ payload }) {
       errors.map((err) => toast.error(err));
     } else {
       toast.error(
-        'Ocorreu um erro amigo, tento entrar em contato usando outras opções, vou verificar este erro IMEDIATAMENTE!!!'
+        'Ocorreu um erro, tente entrar em contato usando outras opções, vou verificar este erro IMEDIATAMENTE!!!'
       );
     }
   }
