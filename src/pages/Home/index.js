@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaCss3Alt, FaNodeJs, FaReact } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { DiJavascript1 } from 'react-icons/di';
 import {
   SiStyledcomponents,
@@ -31,7 +30,7 @@ export default function Home() {
           <span className="desc">Basta apenas um clique...</span>
 
           <div className="btn">
-            <Link to="/contact">I`M Lailton</Link>{' '}
+            <a href="#about"> I`M Lailton</a>{' '}
           </div>
         </div>
       </CenterHome>
