@@ -3,10 +3,6 @@ import { FaGithub } from 'react-icons/fa';
 import { MyProjects } from './styled';
 
 export default function Projects() {
-  const fullScrean = (e) => {
-    const el = e.target;
-    console.log(el);
-  };
   return (
     <MyProjects>
       <h4 id="projects">Meus Projetos</h4>
@@ -54,7 +50,6 @@ export default function Projects() {
             disablePictureInPicture
             muted
             loop
-            onClick={fullScrean}
           >
             <source src="./movclass.mov" type="video/mp4" />
           </video>
@@ -101,7 +96,6 @@ export default function Projects() {
             disablePictureInPicture
             muted
             loop
-            onClick={fullScrean}
           >
             <source src="./movorganize.mov" type="video/mp4" />
           </video>
