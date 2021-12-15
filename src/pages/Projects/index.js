@@ -117,7 +117,7 @@ export default function Projects() {
             </p>{' '}
             <br />
             <p>
-              React + Redux + Axios <br /> NodeJs + nodemailer
+              React + Redux + Axios <br /> NodeJs
               <br />
             </p>
             <br />
