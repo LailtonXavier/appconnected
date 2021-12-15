@@ -22,7 +22,7 @@ export const CenterMenu = styled.div`
   }
 
   .nav-menu {
-    width: 75px;
+    width: 50px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -31,7 +31,7 @@ export const CenterMenu = styled.div`
   }
 
   nav:hover {
-    width: 210px;
+    width: 200px;
   }
 
   .nav-menu.active {
@@ -44,7 +44,7 @@ export const CenterMenu = styled.div`
     justify-content: center;
     align-items: center;
     /* padding: 8px 0px 8px 30px; */
-    padding: 8px;
+    padding: 8px 1px;
     height: 60px;
   }
 
@@ -59,7 +59,7 @@ export const CenterMenu = styled.div`
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-top: 0.5rem;
     /* padding-left: 3.5rem; */
     border-radius: 10px;
@@ -72,7 +72,7 @@ export const CenterMenu = styled.div`
   }
 
   .nav-menu-items {
-    padding: 2rem 0;
+    padding: 1rem 0;
     width: 100%;
     border-radius: 30px 0px 5px 30px;
     box-shadow: inset 2px 2px 100px 80px ${colors.white};
@@ -80,7 +80,7 @@ export const CenterMenu = styled.div`
   }
 
   span + span {
-    margin-left: 24px;
+    margin-left: 15px;
     margin-bottom: 0.5rem;
   }
 
